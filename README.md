@@ -1,4 +1,4 @@
-##Squash your ef core migrations
+## Squash your ef core migrations
 
 #Why to use it?
  - speed up building: eliminating several .Design.cs files will speed up your code analyze, parse and build
