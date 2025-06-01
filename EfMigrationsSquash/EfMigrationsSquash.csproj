@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>EfMigrationsSquash</ToolCommandName>
+	<!-- Optional: Set the version, authors, and description -->
+	<Version>1.0.0</Version>
+	<Authors>Al-Shami</Authors>
+	<Description>Squash your migrations and speed up building.</Description>
+
+	<PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+</Project>
