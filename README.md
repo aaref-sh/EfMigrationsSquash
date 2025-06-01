@@ -19,6 +19,7 @@ I'm not really sure, but i tried it on fresh database and existing databases as 
  - if you're planning to rollback your db to a specific migration (this is not possible, you'd just squashed them, duh!)
 
 ## How to use it:
+ - Download it using `dotnet tool install --global EfMigrationsSquash` if you don't have it already 
  - cd to your migration project (or a project where do your migrations live)
  - run in terminal (EfMigrationsSquash), chose the start and end migration files to squash between
  - check the result
