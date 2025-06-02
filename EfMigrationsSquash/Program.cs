@@ -8,7 +8,8 @@ Console.WriteLine(" this tool will delete the squashed migration files, if somet
     "use it at your own risk\n\npress any key to continue or (Q) to quit");
 
 if (Console.ReadKey().Key == ConsoleKey.Q) return;
-Console.WriteLine();
+Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop);
+Console.Write("\0");
 
 var migrationsFolder = Path.Combine(Directory.GetCurrentDirectory(), "Migrations");
 
