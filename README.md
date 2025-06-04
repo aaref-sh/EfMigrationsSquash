@@ -24,7 +24,8 @@ I'm not really sure, but i tried it on fresh database and existing databases as 
  - run in terminal (EfMigrationsSquash), chose the start and end migration files to squash between
  - check the result
 
-MAKE SURE TO NOT SQUASH BOTH APPLIED AND NOT APPLIED MIGRATIONS TOGETHER
+### Do not squash both applied and not applied migrations together
 
-This is a preview version, it works with .net8+
+Requires .net6+ installed
+
 feel free to fork, contribute
